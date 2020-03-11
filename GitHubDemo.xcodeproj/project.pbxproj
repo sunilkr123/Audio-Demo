@@ -36,6 +36,7 @@
 		B70DB8C123213C8C007C8B18 /* music4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B70DB8BB23213C8B007C8B18 /* music4.mp3 */; };
 		B70DB8C223213C8C007C8B18 /* music6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B70DB8BC23213C8C007C8B18 /* music6.mp3 */; };
 		B70DB8C4232145BA007C8B18 /* MusicDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70DB8C3232145BA007C8B18 /* MusicDetailsVC.swift */; };
+		B751C77224191DC100A11ACE /* AudioPlayer.gif in Resources */ = {isa = PBXBuildFile; fileRef = B751C77124191DC100A11ACE /* AudioPlayer.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		B70DB8BB23213C8B007C8B18 /* music4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music4.mp3; sourceTree = "<group>"; };
 		B70DB8BC23213C8C007C8B18 /* music6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music6.mp3; sourceTree = "<group>"; };
 		B70DB8C3232145BA007C8B18 /* MusicDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailsVC.swift; sourceTree = "<group>"; };
+		B751C77124191DC100A11ACE /* AudioPlayer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AudioPlayer.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		B70DB86423210606007C8B18 /* GitHubDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B751C77024191DAC00A11ACE /* Attachment */,
 				B73501B024099C0F00D7D398 /* View */,
 				B73501B124099C1500D7D398 /* Controller */,
 				B73501AF24099C0A00D7D398 /* Model */,
@@ -229,6 +232,14 @@
 				B70DB89923210C44007C8B18 /* AudioListVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		B751C77024191DAC00A11ACE /* Attachment */ = {
+			isa = PBXGroup;
+			children = (
+				B751C77124191DC100A11ACE /* AudioPlayer.gif */,
+			);
+			path = Attachment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +348,7 @@
 			files = (
 				B70DB8C023213C8C007C8B18 /* music5.mp3 in Resources */,
 				B70DB8C123213C8C007C8B18 /* music4.mp3 in Resources */,
+				B751C77224191DC100A11ACE /* AudioPlayer.gif in Resources */,
 				B70DB8B023213C76007C8B18 /* music12.mp3 in Resources */,
 				B70DB8A623213BC1007C8B18 /* music15.mp3 in Resources */,
 				B70DB8BD23213C8C007C8B18 /* music3.mp3 in Resources */,
